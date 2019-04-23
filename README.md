@@ -10,12 +10,12 @@ A reusable prices widget that continuously scrolls horizontally, **showing the p
 
 - Insert the link tag below in your document:
 ```
-<link rel="stylesheet" type="text/css" href="https://github.com/OVEXIO/ovex-prices-widget/css/ovex-prices-widget.min.css">
+<link rel="stylesheet" type="text/css" href="https://github.com/OVEXIO/ovex-prices-widget/blob/master/src/css/ovex-prices-widget.min.css">
 ```
 - Insert both of the script tags below in your document:
 ```
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-<script src="https://github.com/OVEXIO/ovex-prices-widget/javascript/ovex-prices-widget.min.js"></script>
+<script src="https://github.com/OVEXIO/ovex-prices-widget/blob/master/src/javascript/ovex-prices-widget.min.js"></script>
 ```
 
 ## Usage
@@ -34,7 +34,7 @@ A reusable prices widget that continuously scrolls horizontally, **showing the p
 
 If you have any problems implementing this widget, please contact us at info@ovex.io and we will be happy to assist you. If you have any suggestions please also contact info@ovex.io.
 
-## FAQ
+## FAQs
 
 ### Can I choose which cryptocurrencies are displayed?
 Not yet, but this will be added soon. 
