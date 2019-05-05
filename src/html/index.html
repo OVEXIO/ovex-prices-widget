@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  	<link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/ovex-static-assets/ovex-prices-widget.min.css">
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	 	<script src="https://storage.googleapis.com/ovex-static-assets/ovex-prices-widget.min.js"></script>
+	</head>
+
+	<body>
+		<div class="ovex-prices-widget-container">
+			<a class="ovex-link" target="_blank" href="https://www.ovex.io">
+				<div class="ovex-logo">
+					<picture>
+			          <source type="image/webp" srcset="https://storage.googleapis.com/ovex-static-assets/ov-white.webp">
+			          <source type="image/png" srcset="https://storage.googleapis.com/ovex-static-assets/ov-white.png">
+			          <img src="https://storage.googleapis.com/ovex-static-assets/ov-white.png" alt="OVEX">
+			        </picture>
+				</div>
+			</a>
+			<div class="ovex-play-pause">
+				<img id="pause_icon" src="https://storage.googleapis.com/ovex-static-assets/pause.png" onclick="togglePausePlay(0)">
+				<img id="play_icon" class="hide" src="https://storage.googleapis.com/ovex-static-assets/play.png" onclick="togglePausePlay(1)">
+			</div>
+			<a class="ovex-link" target="_blank" href="https://www.ovex.io">
+				<div id="ovex_prices_container" class="ovex-cryptocurrency-prices"><div id="ovex_prices_marquee"></div></div>
+			</a>
+		</div>
+	</body>
+</html>
