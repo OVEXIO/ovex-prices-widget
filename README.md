@@ -10,26 +10,36 @@ A reusable prices widget that continuously scrolls horizontally, **showing the p
 
 - Insert the link tag below in your document:
 ```
-<link rel="stylesheet" type="text/css" href="https://github.com/OVEXIO/ovex-prices-widget/blob/master/src/css/ovex-prices-widget.min.css">
+<link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/ovex-static-assets/ovex-prices-widget.min.css">
 ```
 - Insert both of the script tags below in your document:
 ```
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-<script src="https://github.com/OVEXIO/ovex-prices-widget/blob/master/src/javascript/ovex-prices-widget.min.js"></script>
+<script src="https://storage.googleapis.com/ovex-static-assets/ovex-prices-widget.min.js"></script>
 ```
 
 ## Usage
 
 - Copy and paste the block of HTML below in your document where you would like the widget to appear:
 ```
-<a class="ovex-link" target="_blank" href="https://www.ovex.io">
-	<div class="ovex-prices-widget-container">
+<div class="ovex-prices-widget-container">
+	<a class="ovex-link" target="_blank" href="https://www.ovex.io">
 		<div class="ovex-logo">
-			<img src="https://www.ovex.io/assets/ov-white-06b4578b5fcb02e219519d18bcfd2c7f57acec4b6528d32c9a34bd3aa8a884bb.png">
+			<picture>
+		        <source type="image/webp" srcset="https://storage.googleapis.com/ovex-static-assets/ov-white.webp">
+			    <source type="image/png" srcset="https://storage.googleapis.com/ovex-static-assets/ov-white.png">
+			    <img src="https://storage.googleapis.com/ovex-static-assets/ov-white.png" alt="OVEX">
+			</picture>
 		</div>
-		<div class="ovex-cryptocurrency-prices"><div id="ovex_prices_marquee"></div></div>
+	</a>
+	<div class="ovex-play-pause">
+		<img id="pause_icon" src="https://storage.googleapis.com/ovex-static-assets/pause.png" onclick="togglePausePlay(0)">
+		<img id="play_icon" class="hide" src="https://storage.googleapis.com/ovex-static-assets/play.png" onclick="togglePausePlay(1)">
 	</div>
-</a>
+	<a class="ovex-link" target="_blank" href="https://www.ovex.io">
+		<div id="ovex_prices_container" class="ovex-cryptocurrency-prices"><div id="ovex_prices_marquee"></div></div>
+	</a>
+</div>
 ```
 
 If you have any problems implementing this widget, please contact us at info@ovex.io and we will be happy to assist you. If you have any suggestions please also contact info@ovex.io.
