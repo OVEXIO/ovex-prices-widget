@@ -23,7 +23,7 @@ A reusable prices widget that continuously scrolls horizontally, **showing the p
 - Copy and paste the block of HTML below in your document where you would like the widget to appear:
 ```
 <div class="ovex-prices-widget-container">
-	<a class="ovex-link" target="_blank" href="https://www.ovex.io">
+	<a class="ovex-link" rel="nofollow" target="_blank" href="https://www.ovex.io">
 		<div class="ovex-logo">
 			<picture>
 		        <source type="image/webp" srcset="https://storage.googleapis.com/ovex-static-assets/ov-white.webp">
@@ -36,7 +36,7 @@ A reusable prices widget that continuously scrolls horizontally, **showing the p
 		<img id="pause_icon" src="https://storage.googleapis.com/ovex-static-assets/pause.png" onclick="togglePausePlay(0)">
 		<img id="play_icon" class="hide" src="https://storage.googleapis.com/ovex-static-assets/play.png" onclick="togglePausePlay(1)">
 	</div>
-	<a class="ovex-link" target="_blank" href="https://www.ovex.io">
+	<a class="ovex-link" rel="nofollow" target="_blank" href="https://www.ovex.io">
 		<div id="ovex_prices_container" class="ovex-cryptocurrency-prices"><div id="ovex_prices_marquee"></div></div>
 	</a>
 </div>
