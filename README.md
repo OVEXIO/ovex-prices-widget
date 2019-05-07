@@ -33,8 +33,8 @@ A reusable prices widget that continuously scrolls horizontally, **showing the p
 		</div>
 	</a>
 	<div class="ovex-play-pause">
-		<img id="pause_icon" src="https://storage.googleapis.com/ovex-static-assets/pause.png" onclick="togglePausePlay(0)">
-		<img id="play_icon" class="hide" src="https://storage.googleapis.com/ovex-static-assets/play.png" onclick="togglePausePlay(1)">
+		<img id="pause_icon" src="https://storage.googleapis.com/ovex-static-assets/pause.png" alt="Pause" onclick="togglePausePlay(0)">
+		<img id="play_icon" class="hide" src="https://storage.googleapis.com/ovex-static-assets/play.png" alt="Play" onclick="togglePausePlay(1)">
 	</div>
 	<a class="ovex-link" rel="nofollow" target="_blank" href="https://www.ovex.io">
 		<div id="ovex_prices_container" class="ovex-cryptocurrency-prices"><div id="ovex_prices_marquee"></div></div>
